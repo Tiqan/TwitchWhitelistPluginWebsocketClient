@@ -9,6 +9,10 @@ A Node JS App which is a Websocket for my Minecraft Plugin to Whitelist People o
 4. Paste the sample into the bot.js and edit the oauth token
 5. Paste the second sample into the config.json and edit the values
 
+## Start:
+1. Open a cmd and cd to your folder
+2. execute 'node ./client.js'
+
 ## How you get the Values:
 
 ### Bot.js:
