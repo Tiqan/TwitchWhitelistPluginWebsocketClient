@@ -60,6 +60,7 @@ module.exports = {BotOAuth}
     "clientId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "toId": "xxxxxxxxx"
 }
+```
 
 ## Help
 If you got any questions open an issue or contact me on discord Tiqan#4757
