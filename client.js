@@ -67,7 +67,7 @@ function connect() {
                         const BASE_URL1 = `https://api.twitch.tv/helix/users/follows?from_id=${user['user-id']}&to_id=${configTwitch.toId}`
                         let config = {
                             headers: {
-                                'Authorization': configTwitch.authToken,
+                                'Authorization': `Bearer ${configTwitch.authToken}`,
                                 "Client-ID": configTwitch.clientId
                             }
                         }

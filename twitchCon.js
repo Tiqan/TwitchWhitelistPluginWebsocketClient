@@ -14,10 +14,10 @@ var options = {
         reconnect: true
     },
 	identity: {
-		username: "ChargeOrion",
+		username: config.botUsername,
 		password: config.BotOAuth
 	},
-	channels: ["Tiqan_"]
+	channels: config.channels
 }
 
 var orion = new tmi.client(options)
